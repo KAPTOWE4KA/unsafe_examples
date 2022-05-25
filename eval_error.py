@@ -5,5 +5,7 @@
 
 with open('some.txt', 'r') as f:
     test = f.read()
+    #'eval'
+    print('eval')
 
 print(eval(test))
